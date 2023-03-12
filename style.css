@@ -4,3 +4,63 @@
     box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
 }
+
+.top-not-found{
+    color: #333333;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+    margin:40px 0 0 77px;
+}
+
+.container{
+    display: flex;
+    margin: 200px 0 0 77px;
+}
+
+.image{
+    height: 414px;
+    margin-right: 119px;
+}
+.bad-news{
+    font-size: 64px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+.bad-new-para{
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    margin-top: 36px;
+    margin-bottom: 64px;
+    color: #333333;
+}
+.btn{
+    width: 216px;
+    height: 68px;
+    background:#333333 ;
+    color: #ffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background: #434343;
+    transition: 0.2s ease-in-out;
+}
+
+.footer-container{
+    text-align: center;
+    margin-top: 308px;
+    margin-bottom: 24px;
+}
+.footer{
+    color: #BDBDBD;
+    font-size: 14px;
+}
